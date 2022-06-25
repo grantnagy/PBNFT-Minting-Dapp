@@ -123,15 +123,13 @@ table {
   border-spacing: 0;
 }
 
-@font-face {
-  font-family: "coder";
-  src: local("coder"), url(font.woff) format("woff");
-}
+@import url('http://fonts.cdnfonts.com/css/gotham');
 
 body {
   margin: 0;
-  font-family: "coder", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
-    "Droid Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Gotham', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
